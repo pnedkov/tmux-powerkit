@@ -1,3 +1,10 @@
+## [3.9.1](https://github.com/fabioluciano/tmux-powerkit/compare/v3.9.0...v3.9.1) (2025-12-16)
+
+
+### Bug Fixes
+
+* improve pane border color configuration for clarity and semantic naming ([#127](https://github.com/fabioluciano/tmux-powerkit/issues/127)) ([0bedffe](https://github.com/fabioluciano/tmux-powerkit/commit/0bedffe74eae82ca4e715e344929694a9f8e5614))
+
 # [3.9.0](https://github.com/fabioluciano/tmux-powerkit/compare/v3.8.3...v3.9.0) (2025-12-16)
 
 
