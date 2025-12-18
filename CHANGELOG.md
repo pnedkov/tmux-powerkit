@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/fabioluciano/tmux-powerkit/compare/v4.0.4...v4.1.0) (2025-12-18)
+
+
+### Features
+
+* Update theme color definitions and add new themes ([#135](https://github.com/fabioluciano/tmux-powerkit/issues/135)) ([f1b4a03](https://github.com/fabioluciano/tmux-powerkit/commit/f1b4a03b0aee511959936622240e9839063c7802))
+
 ## [4.0.4](https://github.com/fabioluciano/tmux-powerkit/compare/v4.0.3...v4.0.4) (2025-12-17)
 
 
