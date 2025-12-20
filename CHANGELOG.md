@@ -1,3 +1,10 @@
+# [4.4.0](https://github.com/fabioluciano/tmux-powerkit/compare/v4.3.0...v4.4.0) (2025-12-20)
+
+
+### Features
+
+* Refactor and enhance various scripts and themes ([#140](https://github.com/fabioluciano/tmux-powerkit/issues/140)) ([0c51938](https://github.com/fabioluciano/tmux-powerkit/commit/0c51938caf2b0e9f3d7fc6ffdca7f1ffe56c468c))
+
 # [4.3.0](https://github.com/fabioluciano/tmux-powerkit/compare/v4.2.0...v4.3.0) (2025-12-19)
 
 
