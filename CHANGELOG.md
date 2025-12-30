@@ -1,3 +1,19 @@
+# Changelog
+
+All notable changes to tmux-powerkit will be documented in this file.
+
+## [5.3.0](https://github.com/fabioluciano/tmux-powerkit/compare/v5.2.0...v5.3.0) (2025-12-30)
+
+### Features
+
+* Add native macOS helpers for microphone status, now playing info, and temperature readings ([#147](https://github.com/fabioluciano/tmux-powerkit/issues/147)) ([33054db](https://github.com/fabioluciano/tmux-powerkit/commit/33054db175af277a50aab915ebbce8400a77bb51))
+* update macOS versions in semantic release workflow to support macOS 15 ([0ba4335](https://github.com/fabioluciano/tmux-powerkit/commit/0ba4335a8f9cec4bfe04c6548ae503af4ef8923d))
+* update semantic-release and related packages to latest versions ([c258e93](https://github.com/fabioluciano/tmux-powerkit/commit/c258e93e890d178e8ae5c72f585f7941a5321b9c))
+
+### Bug Fixes
+
+* correct variable reference in prepare and publish commands ([20ac6d9](https://github.com/fabioluciano/tmux-powerkit/commit/20ac6d9614545366a7fafee2f439516d2aca8d21))
+
 # [5.2.0](https://github.com/fabioluciano/tmux-powerkit/compare/v5.1.0...v5.2.0) (2025-12-29)
 
 
