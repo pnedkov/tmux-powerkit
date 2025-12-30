@@ -2,18 +2,18 @@
 
 # ⚡ PowerKit
 
-### *The Ultimate tmux Status Bar Framework*
+## The Ultimate tmux Status Bar Framework
 
-**42 Plugins • 13 Themes • Infinite Possibilities**
+42 Plugins • 13 Themes • Infinite Possibilities
 
 [![Version](https://img.shields.io/github/v/release/fabioluciano/tmux-powerkit?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fabioluciano/tmux-powerkit/releases)
 [![License](https://img.shields.io/github/license/fabioluciano/tmux-powerkit?style=for-the-badge)](LICENSE)
 [![CI](https://img.shields.io/github/actions/workflow/status/fabioluciano/tmux-powerkit/plugin-tests.yml?branch=main&style=for-the-badge&label=tests&logo=github-actions&logoColor=white)](https://github.com/fabioluciano/tmux-powerkit/actions)
 [![Stars](https://img.shields.io/github/stars/fabioluciano/tmux-powerkit?style=for-the-badge&logo=starship&logoColor=white)](https://github.com/fabioluciano/tmux-powerkit/stargazers)
 
-*Transform your tmux status bar into a powerful, beautiful, and intelligent command center*
+Transform your tmux status bar into a powerful, beautiful, and intelligent command center
 
-[**Getting Started**](#-quick-start) • [**Plugins**](#-plugins) • [**Themes**](#-themes) • [**Documentation**](../../wiki)
+[**Getting Started**](#-quick-start) • [**Plugins**](#-plugins) • [**Themes**](#-themes) • [**Documentation**](https://github.com/fabioluciano/tmux-powerkit/wiki)
 
 </div>
 
@@ -26,18 +26,22 @@
 <td width="50%">
 
 ### 🎨 **Beautiful by Default**
+
 Choose from **13 carefully crafted themes** with **27 variants** including Catppuccin, Dracula, Nord, Tokyo Night, and more. Every theme supports automatic color variants (light/lighter/dark/darker) for perfect contrast.
 
 ### ⚡ **Blazingly Fast**
+
 Smart **multi-layer caching**, **Stale-While-Revalidate (SWR) lazy loading**, and optimized background rendering ensure minimal overhead even with dozens of plugins active. Returns stale data immediately while refreshing in background - never blocks on slow API calls or external commands.
 
 </td>
 <td width="50%">
 
 ### 🧩 **Truly Modular**
+
 **42 production-ready plugins** covering system monitoring, development tools, productivity, media control, and more. Mix and match to create your perfect setup.
 
 ### 🔧 **Extensible Architecture**
+
 Contract-based plugin system with strict separation of concerns. Create your own plugins, themes, and helpers with ease.
 
 </td>
@@ -230,7 +234,7 @@ set -g @powerkit_theme "dracula"
 set -g @powerkit_theme_variant "dark"
 ```
 
-**See all themes:** [Themes Documentation](../../wiki/Themes)
+**See all themes:** [Themes Documentation](https://github.com/fabioluciano/tmux-powerkit/wiki/Themes)
 
 ---
 
@@ -386,7 +390,7 @@ This architecture ensures:
 - ✅ Rendering is consistent across all plugins
 - ✅ Easy to extend without breaking existing code
 
-**Learn more:** [Architecture Documentation](../../wiki/Architecture)
+**Learn more:** [Architecture Documentation](https://github.com/fabioluciano/tmux-powerkit/wiki/Architecture)
 
 ---
 
@@ -433,6 +437,7 @@ set -g @powerkit_stale_multiplier "3"
 ```
 
 **How it works:**
+
 - Fresh data (within TTL): Returns cached data immediately
 - Stale data (within TTL × multiplier): Returns stale data immediately, refreshes in background
 - Too old data (beyond TTL × multiplier): Blocks and refreshes synchronously
@@ -482,7 +487,7 @@ plugin_get_icon() {
 }
 ```
 
-**Learn more:** [Developing Plugins](../../wiki/DevelopingPlugins)
+**Learn more:** [Developing Plugins](https://github.com/fabioluciano/tmux-powerkit/wiki/DevelopingPlugins)
 
 ---
 
@@ -510,16 +515,12 @@ declare -A THEME_COLORS=(
     [info-base]="#7dcfff"
     [warning-base]="#e0af68"
     [error-base]="#f7768e"
-
-    # Additional
-    [accent]="#bb9af7"
-    [border]="#3b4261"
 )
 ```
 
 The system automatically generates **6 color variants** (light/lighter/lightest/dark/darker/darkest) for each base color!
 
-**Learn more:** [Developing Themes](../../wiki/DevelopingThemes)
+**Learn more:** [Developing Themes](https://github.com/fabioluciano/tmux-powerkit/wiki/DevelopingThemes)
 
 ---
 
@@ -527,16 +528,16 @@ The system automatically generates **6 color variants** (light/lighter/lightest/
 
 | Resource | Description |
 |----------|-------------|
-| [**Installation Guide**](../../wiki/Installation) | Detailed setup instructions |
-| [**Quick Start**](../../wiki/Quick-Start) | Get started in 5 minutes |
-| [**Configuration Reference**](../../wiki/Configuration) | All configuration options explained |
+| [**Installation Guide**](https://github.com/fabioluciano/tmux-powerkit/wiki/Installation) | Detailed setup instructions |
+| [**Quick Start**](https://github.com/fabioluciano/tmux-powerkit/wiki/Quick-Start) | Get started in 5 minutes |
+| [**Configuration Reference**](https://github.com/fabioluciano/tmux-powerkit/wiki/Configuration) | All configuration options explained |
 | [**Options Template**](https://raw.githubusercontent.com/wiki/fabioluciano/tmux-powerkit/assets/powerkit-options.conf) | Complete tmux.conf with all options |
-| [**Plugin Documentation**](../../wiki/Home#plugins-42-available) | Detailed docs for all 42 plugins |
-| [**Theme Gallery**](../../wiki/Themes) | Preview all themes and variants |
-| [**Developing Plugins**](../../wiki/DevelopingPlugins) | Create your own plugins |
-| [**Developing Themes**](../../wiki/DevelopingThemes) | Create custom themes |
-| [**Architecture**](../../wiki/Architecture) | Understanding the contract system |
-| [**API Reference**](../../wiki/API-Reference) | Core APIs and utilities |
+| [**Plugin Documentation**](https://github.com/fabioluciano/tmux-powerkit/wiki/Home#plugins-42-available) | Detailed docs for all 42 plugins |
+| [**Theme Gallery**](https://github.com/fabioluciano/tmux-powerkit/wiki/Themes) | Preview all themes and variants |
+| [**Developing Plugins**](https://github.com/fabioluciano/tmux-powerkit/wiki/DevelopingPlugins) | Create your own plugins |
+| [**Developing Themes**](https://github.com/fabioluciano/tmux-powerkit/wiki/DevelopingThemes) | Create custom themes |
+| [**Architecture**](https://github.com/fabioluciano/tmux-powerkit/wiki/Architecture) | Understanding the contract system |
+| [**API Reference**](https://github.com/fabioluciano/tmux-powerkit/wiki/API-Reference) | Core APIs and utilities |
 
 ---
 
@@ -633,7 +634,7 @@ POWERKIT_ROOT="$(pwd)" ./bin/powerkit-render
 POWERKIT_ROOT="$(pwd)" ./bin/powerkit-plugin battery
 ```
 
-**See:** [Development Guide](../../wiki/DevelopingPlugins)
+**See:** [Development Guide](https://github.com/fabioluciano/tmux-powerkit/wiki/DevelopingPlugins)
 
 ---
 
@@ -660,8 +661,7 @@ See [LICENSE](LICENSE) for full details.
 ## 📬 Support & Community
 
 - 🐛 **Bug Reports:** [GitHub Issues](https://github.com/fabioluciano/tmux-powerkit/issues)
-- 💬 **Discussions:** [GitHub Discussions](https://github.com/fabioluciano/tmux-powerkit/discussions)
-- 📖 **Documentation:** [Wiki](../../wiki)
+- 📖 **Documentation:** [Wiki](https://github.com/fabioluciano/tmux-powerkit/wiki)
 - ⭐ **Show Support:** Star this repository!
 
 ---
@@ -670,7 +670,7 @@ See [LICENSE](LICENSE) for full details.
 
 ### Made with ❤️ by [@fabioluciano](https://github.com/fabioluciano)
 
-**If PowerKit improves your tmux experience, please consider starring the repo! ⭐**
+If PowerKit improves your tmux experience, please consider starring the repo! ⭐
 
 [⬆ Back to Top](#-powerkit)
 
