@@ -2,6 +2,34 @@
 
 All notable changes to tmux-powerkit will be documented in this file.
 
+## [5.9.0](https://github.com/fabioluciano/tmux-powerkit/compare/v5.8.1...v5.9.0) (2026-01-06)
+
+### Features
+
+* **defaults:** change default theme to catppuccin/mocha ([bc6db59](https://github.com/fabioluciano/tmux-powerkit/commit/bc6db590af1d08ae90d8f08c9e806a21fe86dd9d))
+* **renderer:** apply edge separators with :all suffix ([d266515](https://github.com/fabioluciano/tmux-powerkit/commit/d266515eb52fc26635069b2bf2675028f03bcdf8))
+* **separator:** add :all suffix for edge separator style ([ade5862](https://github.com/fabioluciano/tmux-powerkit/commit/ade586217fe3b86f50566c0791db075ca73fe908))
+
+### Bug Fixes
+
+* **keybindings:** change defaults to avoid conflicts ([89939a2](https://github.com/fabioluciano/tmux-powerkit/commit/89939a23057b4d9fc399d9aca27973528a456793))
+* **keybindings:** clear conflict log between sessions ([74a17ae](https://github.com/fabioluciano/tmux-powerkit/commit/74a17ae2731644e4ce32929affc7cccbc4c208e8))
+* **renderer:** add space in window display format for better readability ([0399c63](https://github.com/fabioluciano/tmux-powerkit/commit/0399c633756ae0d1ed9a153d7fdd54f86c7931a3))
+
+### Performance Improvements
+
+* **bluetooth:** use parameter expansion instead of tr/sed pipes ([e36707d](https://github.com/fabioluciano/tmux-powerkit/commit/e36707ddaea8f115039818725888026d3cbc366c))
+* **bootstrap:** enable assoc_expand_once for Bash 5.1+ ([b1b6793](https://github.com/fabioluciano/tmux-powerkit/commit/b1b6793817fa1302b71656836442737817b4629f))
+* **cache:** use $EPOCHSECONDS instead of date +%s ([b731871](https://github.com/fabioluciano/tmux-powerkit/commit/b73187197d50216bc30ff42a695089d8b8b8d914))
+* **helpers:** use $EPOCHSECONDS in pomodoro_timer, bitwarden_common ([3778a2f](https://github.com/fabioluciano/tmux-powerkit/commit/3778a2f7e569bca8f2330f4e708b781be1aaaab9))
+* **platform:** use ${var,,} for case conversion ([b8b6668](https://github.com/fabioluciano/tmux-powerkit/commit/b8b6668b938148ac164f38945625d867b0e448d0))
+* **plugins:** use $EPOCHSECONDS in iops, netspeed, cloud ([5b5d2a1](https://github.com/fabioluciano/tmux-powerkit/commit/5b5d2a1e928c7d1bb59def3a7043dcf6356f67e8))
+* **plugins:** use $EPOCHSECONDS in pomodoro, packages, uptime ([6e430ef](https://github.com/fabioluciano/tmux-powerkit/commit/6e430efb6904ad2020728098846289cb4fb718b9))
+* **render:** use $EPOCHSECONDS for frame timing ([315ac8a](https://github.com/fabioluciano/tmux-powerkit/commit/315ac8ace5860808e8da3bb3bc8c47a4fadd396f))
+* **smartkey:** use $EPOCHREALTIME for high-res timing ([bd710d5](https://github.com/fabioluciano/tmux-powerkit/commit/bd710d5046f54f70c3d008aa4a09157b2b3bfb0e))
+* **strings:** use pure bash for collapse_spaces ([378faff](https://github.com/fabioluciano/tmux-powerkit/commit/378faff5d088b61a0e57670c01e8871f69e8a318))
+* use Bash 5.0+ builtins in remaining files ([70d1d63](https://github.com/fabioluciano/tmux-powerkit/commit/70d1d631c952a0790a8b8b86fcf53e3dad744d1a))
+
 ## [5.8.1](https://github.com/fabioluciano/tmux-powerkit/compare/v5.8.0...v5.8.1) (2026-01-06)
 
 ### Performance Improvements
