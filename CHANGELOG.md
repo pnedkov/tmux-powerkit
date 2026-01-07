@@ -2,6 +2,12 @@
 
 All notable changes to tmux-powerkit will be documented in this file.
 
+## [5.9.1](https://github.com/fabioluciano/tmux-powerkit/compare/v5.9.0...v5.9.1) (2026-01-07)
+
+### Bug Fixes
+
+* **README:** typo at Quick Theme Switch ([64b6a8d](https://github.com/fabioluciano/tmux-powerkit/commit/64b6a8d63ce9b6c14084cc86e7efcc958ed0cc7a))
+
 ## [5.9.0](https://github.com/fabioluciano/tmux-powerkit/compare/v5.8.1...v5.9.0) (2026-01-06)
 
 ### Features
