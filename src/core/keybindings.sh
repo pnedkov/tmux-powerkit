@@ -38,7 +38,7 @@ declare -gA POWERKIT_CORE_KEYBINDINGS=(
 
     # Reload tmux config - special command (no helper file)
     # Note: Using "R" (Shift+r) to avoid conflict with choose-buffer
-    [reload_config]="command:@powerkit_reload_config_key:R:::::"
+    [reload_config]="command:@powerkit_reload_config_key:r:::::"
 
     # Options viewer - popup
     [options_viewer]="popup:@powerkit_show_options_key:C-e:@powerkit_show_options_width:80%:@powerkit_show_options_height:60%:options_viewer.sh:"
