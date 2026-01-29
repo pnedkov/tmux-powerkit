@@ -2,6 +2,12 @@
 
 All notable changes to tmux-powerkit will be documented in this file.
 
+## [5.17.0](https://github.com/fabioluciano/tmux-powerkit/compare/v5.16.0...v5.17.0) (2026-01-29)
+
+### Features
+
+* rename network plugin to netspeed for consistency ([e24e214](https://github.com/fabioluciano/tmux-powerkit/commit/e24e2149a6f984c5a9345cb324319cfe309bc5f4))
+
 ## [5.16.0](https://github.com/fabioluciano/tmux-powerkit/compare/v5.15.0...v5.16.0) (2026-01-20)
 
 ### Features
